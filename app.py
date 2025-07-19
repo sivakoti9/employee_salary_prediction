@@ -95,7 +95,7 @@ st.write(input_df)
 # Predict
 if st.button("Predict Salary Class"):
     prediction = model.predict(input_df)
-    st.success(f"✅ Predicted Class: {prediction[0]}")
+    st.success(f"✅ Predicted Salary: {prediction[0]}")
 
 # Batch prediction section
 st.markdown("---")
